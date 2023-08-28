@@ -1,0 +1,75 @@
+# hackathon
+
+Dine Market Ecommerce
+
+### for Environment variables
+
+```
+NX_DAEMON=""
+TURBO_REMOTE_ONLY=""
+TURBO_RUN_SUMMARY=""
+VERCEL="1"
+VERCEL_ENV="development"
+VERCEL_GIT_COMMIT_AUTHOR_LOGIN=""
+VERCEL_GIT_COMMIT_AUTHOR_NAME=""
+VERCEL_GIT_COMMIT_MESSAGE=""
+VERCEL_GIT_COMMIT_REF=""
+VERCEL_GIT_COMMIT_SHA=""
+VERCEL_GIT_PREVIOUS_SHA=""
+VERCEL_GIT_PROVIDER=""
+VERCEL_GIT_PULL_REQUEST_ID=""
+VERCEL_GIT_REPO_ID=""
+VERCEL_GIT_REPO_OWNER=""
+VERCEL_GIT_REPO_SLUG=""
+VERCEL_URL=""
+
+> Sanity Credentials
+NEXT_PUBLIC_SANITY_PROJECT_ID=""
+NEXT_PUBLIC_SANITY_DATASET="production"
+NEXT_PUBLIC_SANITY_TOKEN=
+
+> Vercel POSTGRES Credentials
+POSTGRES_URL=
+POSTGRES_PRISMA_URL=
+POSTGRES_URL_NON_POOLING=
+POSTGRES_USER=
+POSTGRES_HOST=
+POSTGRES_PASSWORD=
+POSTGRES_DATABASE="verceldb"
+
+> Stripe keys
+
+-- https://dashboard.stripe.com/apikeys
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET= ""
+
+Linux: `openssl rand -hex 32` or go to https://generate-secret.now.sh/32
+
+AUTH0_ID=
+
+AUTH0_SECRET=
+
+ AUTH0_ISSUER=
+
+FACEBOOK_ID=
+FACEBOOK_SECRET=
+
+GITHUB_ID=
+GITHUB_SECRET=
+
+GOOGLE_ID=
+GOOGLE_SECRET=
+
+ TWITTER_ID=
+
+ TWITTER_SECRET=
+
+ EMAIL_SERVER=smtp://username:password@smtp.example.com:587
+
+ EMAIL_FROM=NextAuth <noreply@example.com>
+
+ DATABASE_URL=sqlite://localhost/:memory:?synchronize=true
+```
